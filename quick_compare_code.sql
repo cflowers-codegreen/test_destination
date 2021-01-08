@@ -1,4 +1,4 @@
-select * from espm_api_staging.data_accuracy_testing;
+--select * from espm_api_staging.data_accuracy_testing;
 select distinct version_date from espm_api_staging.data_accuracy_testing;
 select distinct "year ending" from espm_api_staging.data_accuracy_testing order by 1;
 -- is there a date range to the data accuracy api?
